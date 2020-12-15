@@ -1,0 +1,11 @@
+.fixed-position {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100vh;
+}
+
+.filler {
+	width: 100vw;
+	height: 300vh;
+}
