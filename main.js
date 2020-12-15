@@ -1,6 +1,6 @@
 const canDOM = document.querySelector('#splash-image');
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('load', () => {
     document.addEventListener('scroll', (e) => {
         let windowScrollY = Math.ceil((Math.floor(window.scrollY) % 720 + 1) / 2)
         let directory = "./images/render/"
